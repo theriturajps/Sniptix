@@ -1,0 +1,323 @@
+{
+	"CSS Variables": {
+		"prefix": "css-vars",
+		"body": [
+			":root {",
+			"\t--primary-color: #3498db;",
+			"\t--secondary-color: #2ecc71;",
+			"}",
+			"",
+			"body {",
+			"\tbackground-color: var(--primary-color);",
+			"\tcolor: var(--secondary-color);",
+			"}"
+		],
+		"description": "Using CSS custom properties (variables)"
+	},
+	"CSS Flexbox Container": {
+		"prefix": "flexbox",
+		"body": [
+			"display: flex;",
+			"flex-direction: row;",
+			"justify-content: center;",
+			"align-items: center;",
+			"height: 100vh;",
+			"width: 100%;"
+		],
+		"description": "Basic Flexbox container setup"
+	},
+	"CSS Grid Container": {
+		"prefix": "grid",
+		"body": [
+			"display: grid;",
+			"grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));",
+			"grid-gap: 20px;",
+			"height: 100vh;",
+			"width: 100%;"
+		],
+		"description": "Basic Grid container setup"
+	},
+	"CSS Media Query": {
+		"prefix": "media-query",
+		"body": [
+			"@media screen and (max-width: 768px) {",
+			"\t/* Your styles here */",
+			"}"
+		],
+		"description": "Basic media query for responsiveness"
+	},
+	"CSS Transition": {
+		"prefix": "transition",
+		"body": [
+			"transition: all 0.3s ease-in-out;"
+		],
+		"description": "Simple transition for smooth animations"
+	},
+	"CSS Box Shadow": {
+		"prefix": "box-shadow",
+		"body": [
+			"box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);"
+		],
+		"description": "Simple box shadow effect"
+	},
+	"CSS Gradient Background": {
+		"prefix": "gradient-bg",
+		"body": [
+			"background: linear-gradient(45deg, #ff6b6b, #f7a6b3);"
+		],
+		"description": "Creating a gradient background"
+	},
+	"CSS Centering (Flex)": {
+		"prefix": "center-flex",
+		"body": [
+			"display: flex;",
+			"justify-content: center;",
+			"align-items: center;",
+			"height: 100vh;"
+		],
+		"description": "Centering content using flexbox"
+	},
+	"CSS Centering (Grid)": {
+		"prefix": "center-grid",
+		"body": [
+			"display: grid;",
+			"place-items: center;",
+			"height: 100vh;"
+		],
+		"description": "Centering content using grid"
+	},
+	"CSS Hover Effect": {
+		"prefix": "hover-effect",
+		"body": [
+			"&:hover {",
+			"\ttransform: scale(1.1);",
+			"\ttransition: all 0.3s ease;",
+			"}"
+		],
+		"description": "Adding a hover effect for scaling"
+	},
+	"CSS Animation": {
+		"prefix": "animate",
+		"body": [
+			"@keyframes slideIn {",
+			"\t0% { opacity: 0; transform: translateX(-100%); }",
+			"\t100% { opacity: 1; transform: translateX(0); }",
+			"}",
+			"",
+			"animation: slideIn 1s ease-out;"
+		],
+		"description": "Creating a slide-in animation"
+	},
+	"CSS Text Shadow": {
+		"prefix": "text-shadow",
+		"body": [
+			"text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);"
+		],
+		"description": "Simple text shadow effect"
+	},
+	"CSS Border Radius": {
+		"prefix": "border-radius",
+		"body": [
+			"border-radius: 8px;"
+		],
+		"description": "Add rounded corners to elements"
+	},
+	"CSS Box Sizing": {
+		"prefix": "box-sizing",
+		"body": [
+			"box-sizing: border-box;"
+		],
+		"description": "Set box-sizing to border-box for better layout control"
+	},
+	"CSS Opacity": {
+		"prefix": "opacity",
+		"body": [
+			"opacity: 0.7;"
+		],
+		"description": "Set the opacity of an element"
+	},
+	"CSS Box Model": {
+		"prefix": "box-model",
+		"body": [
+			"/* Box Model */",
+			"margin: 0;",
+			"padding: 0;",
+			"border: 1px solid #000;",
+			"box-sizing: border-box;"
+		],
+		"description": "Basic CSS box model reset"
+	},
+	"CSS Flexbox Centering": {
+		"prefix": "flex-center",
+		"body": [
+			"/* Flexbox Centering */",
+			"display: flex;",
+			"justify-content: center;",
+			"align-items: center;",
+			"height: 100vh;"
+		],
+		"description": "Centering content using Flexbox"
+	},
+	"CSS Grid Centering": {
+		"prefix": "grid-center",
+		"body": [
+			"/* Grid Centering */",
+			"display: grid;",
+			"place-items: center;",
+			"height: 100vh;"
+		],
+		"description": "Centering content using Grid"
+	},
+	"CSS Keyframe Animation": {
+		"prefix": "keyframes",
+		"body": [
+			"/* Keyframe Animation */",
+			"@keyframes slideIn {",
+			"\t0% { opacity: 0; transform: translateX(-100%); }",
+			"\t100% { opacity: 1; transform: translateX(0); }",
+			"}",
+			"",
+			"animation: slideIn 1s ease-out;"
+		],
+		"description": "Creating a slide-in animation"
+	},
+	"CSS Z-Index": {
+		"prefix": "z-index",
+		"body": [
+			"/* Z-Index */",
+			"z-index: 10;"
+		],
+		"description": "Setting z-index for layering"
+	},
+	"CSS Font Face": {
+		"prefix": "font-face",
+		"body": [
+			"/* Font Face */",
+			"@font-face {",
+			"\tfont-family: 'MyFont';",
+			"\tsrc: url('path/to/font.ttf');",
+			"}"
+		],
+		"description": "Defining a custom font-face"
+	},
+	"CSS Font Size and Line Height": {
+		"prefix": "font-size-line-height",
+		"body": [
+			"/* Font Size and Line Height */",
+			"font-size: 16px;",
+			"line-height: 1.5;"
+		],
+		"description": "Setting font size and line height"
+	},
+	"CSS Text Alignment": {
+		"prefix": "text-align",
+		"body": [
+			"/* Text Alignment */",
+			"text-align: center;"
+		],
+		"description": "Aligning text"
+	},
+	"CSS Text Decoration": {
+		"prefix": "text-decoration",
+		"body": [
+			"/* Text Decoration */",
+			"text-decoration: underline;"
+		],
+		"description": "Adding text decoration (underline, strike-through, etc.)"
+	},
+	"CSS Display Block": {
+		"prefix": "display-block",
+		"body": [
+			"/* Display Block */",
+			"display: block;"
+		],
+		"description": "Changing element display property to block"
+	},
+	"CSS Display Inline": {
+		"prefix": "display-inline",
+		"body": [
+			"/* Display Inline */",
+			"display: inline;"
+		],
+		"description": "Changing element display property to inline"
+	},
+	"CSS Display Inline Block": {
+		"prefix": "display-inline-block",
+		"body": [
+			"/* Display Inline-Block */",
+			"display: inline-block;"
+		],
+		"description": "Changing element display property to inline-block"
+	},
+	"CSS Vertical Alignment": {
+		"prefix": "vertical-align",
+		"body": [
+			"/* Vertical Alignment */",
+			"vertical-align: middle;"
+		],
+		"description": "Aligning elements vertically"
+	},
+	"CSS Overflow": {
+		"prefix": "overflow",
+		"body": [
+			"/* Overflow */",
+			"overflow: hidden;"
+		],
+		"description": "Control the overflow behavior of an element"
+	},
+	"CSS List Style": {
+		"prefix": "list-style",
+		"body": [
+			"/* List Style */",
+			"list-style: none;"
+		],
+		"description": "Remove list bullets or style"
+	},
+	"CSS Transform": {
+		"prefix": "transform",
+		"body": [
+			"/* Transform */",
+			"transform: scale(1.2);"
+		],
+		"description": "Applying a transformation to an element"
+	},
+	"CSS Transition on Hover": {
+		"prefix": "transition-hover",
+		"body": [
+			"/* Transition on Hover */",
+			"&:hover {",
+			"\ttransition: transform 0.3s ease-in-out;",
+			"\ttransform: scale(1.1);",
+			"}"
+		],
+		"description": "Adding hover transition"
+	},
+	"CSS Box Model Reset": {
+		"prefix": "box-reset",
+		"body": [
+			"/* Box Model Reset */",
+			"html, body {",
+			"\tmargin: 0;",
+			"\tpadding: 0;",
+			"\tbox-sizing: border-box;",
+			"}"
+		],
+		"description": "Reset box model for all elements"
+	},
+	"CSS Font Weight": {
+		"prefix": "font-weight",
+		"body": [
+			"/* Font Weight */",
+			"font-weight: bold;"
+		],
+		"description": "Setting font weight"
+	},
+	"CSS Cursor Style": {
+		"prefix": "cursor-style",
+		"body": [
+			"/* Cursor Style */",
+			"cursor: pointer;"
+		],
+		"description": "Changing cursor style on hover"
+	}
+}

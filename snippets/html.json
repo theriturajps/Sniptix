@@ -1,0 +1,424 @@
+{
+	"HTML5 Boilerplate": {
+		"prefix": "html5",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html lang=\"${1:en}\">",
+			"<head>",
+			"    <meta charset=\"${2:UTF-8}\">",
+			"    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+			"    <link rel=\"stylesheet\" href=\"${3:path/to/style.css}\" />",
+			"    <title>${4:HTML5 Boilerplate}</title>",
+			"</head>",
+			"<body>",
+			"    ${5:<!-- Your content goes here -->}",
+			"<script src=\"${6:path/to/script.js}\"></script>",
+			"</body>",
+			"</html>"
+		],
+		"description": "HTML5 basic boilerplate"
+	},
+	"Anchor Tag": {
+		"prefix": "a",
+		"body": [
+			"<a href=\"${1:#}\">${2:Link Text}</a>"
+		],
+		"description": "Code snippet for anchor tag"
+	},
+	"Image Tag": {
+		"prefix": "img",
+		"body": [
+			"<img src=\"${1:path/to/image.jpg}\" alt=\"${2:description}\" />"
+		],
+		"description": "Code snippet for image tag"
+	},
+	"Div Element": {
+		"prefix": "div",
+		"body": [
+			"<div>${1:content}</div>"
+		],
+		"description": "Code snippet for div tag"
+	},
+	"Script Tag": {
+		"prefix": "script",
+		"body": [
+			"<script src=\"${1:path/to/script.js}\"></script>"
+		],
+		"description": "Code snippet for script tag"
+	},
+	"Link Tag (Stylesheet)": {
+		"prefix": "link",
+		"body": [
+			"<link rel=\"stylesheet\" href=\"${1:path/to/style.css}\" />"
+		],
+		"description": "Code snippet for stylesheet link tag"
+	},
+	"Meta Charset Tag": {
+		"prefix": "meta-charset",
+		"body": [
+			"<meta charset=\"${1:UTF-8}\">"
+		],
+		"description": "Code snippet for meta charset tag"
+	},
+	"Meta Viewport Tag": {
+		"prefix": "meta-viewport",
+		"body": [
+			"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"
+		],
+		"description": "Code snippet for meta viewport tag"
+	},
+	"Header Tag": {
+		"prefix": "header",
+		"body": [
+			"<header>",
+			"    ${1:<!-- header content -->}",
+			"</header>"
+		],
+		"description": "Code snippet for header tag"
+	},
+	"Footer Tag": {
+		"prefix": "footer",
+		"body": [
+			"<footer>",
+			"    ${1:<!-- footer content -->}",
+			"</footer>"
+		],
+		"description": "Code snippet for footer tag"
+	},
+	"Form Tag": {
+		"prefix": "form",
+		"body": [
+			"<form action=\"${1:action}\" method=\"${2:GET}\">",
+			"    ${3:<!-- form elements -->}",
+			"</form>"
+		],
+		"description": "Code snippet for form tag"
+	},
+	"Input Tag": {
+		"prefix": "input",
+		"body": [
+			"<input type=\"${1:text}\" name=\"${2:name}\" value=\"${3:value}\" />"
+		],
+		"description": "Code snippet for input tag"
+	},
+	"Button Tag": {
+		"prefix": "button",
+		"body": [
+			"<button type=\"${1:button}\">${2:Click me}</button>"
+		],
+		"description": "Code snippet for button tag"
+	},
+	"Table Structure": {
+		"prefix": "table",
+		"body": [
+			"<table>",
+			"    <thead>",
+			"        <tr>",
+			"            <th>${1:Header}</th>",
+			"        </tr>",
+			"    </thead>",
+			"    <tbody>",
+			"        <tr>",
+			"            <td>${2:Data}</td>",
+			"        </tr>",
+			"    </tbody>",
+			"</table>"
+		],
+		"description": "Code snippet for table structure"
+	},
+	"Unordered List": {
+		"prefix": "ul",
+		"body": [
+			"<ul>",
+			"    <li>${1:List item}</li>",
+			"</ul>"
+		],
+		"description": "Code snippet for unordered list"
+	},
+	"Ordered List": {
+		"prefix": "ol",
+		"body": [
+			"<ol>",
+			"    <li>${1:List item}</li>",
+			"</ol>"
+		],
+		"description": "Code snippet for ordered list"
+	},
+	"List Item": {
+		"prefix": "li",
+		"body": [
+			"<li>${1:List item}</li>"
+		],
+		"description": "Code snippet for list item"
+	},
+	"Section Tag": {
+		"prefix": "section",
+		"body": [
+			"<section>",
+			"    ${1:<!-- section content -->}",
+			"</section>"
+		],
+		"description": "Code snippet for section tag"
+	},
+	"Article Tag": {
+		"prefix": "article",
+		"body": [
+			"<article>",
+			"    ${1:<!-- article content -->}",
+			"</article>"
+		],
+		"description": "Code snippet for article tag"
+	},
+	"Nav Tag": {
+		"prefix": "nav",
+		"body": [
+			"<nav>",
+			"    ${1:<!-- navigation content -->}",
+			"</nav>"
+		],
+		"description": "Code snippet for nav tag"
+	},
+	"H1 Tag": {
+		"prefix": "h1",
+		"body": [
+			"<h1>${1:Heading 1}</h1>"
+		],
+		"description": "Code snippet for h1 tag"
+	},
+	"H2 Tag": {
+		"prefix": "h2",
+		"body": [
+			"<h2>${1:Heading 2}</h2>"
+		],
+		"description": "Code snippet for h2 tag"
+	},
+	"H3 Tag": {
+		"prefix": "h3",
+		"body": [
+			"<h3>${1:Heading 3}</h3>"
+		],
+		"description": "Code snippet for h3 tag"
+	},
+	"Header4 Tag": {
+		"prefix": "h4",
+		"body": [
+			"<h4>${1:Heading 4}</h4>"
+		],
+		"description": "Code snippet for h4 tag"
+	},
+	"Header5 Tag": {
+		"prefix": "h5",
+		"body": [
+			"<h5>${1:Heading 5}</h5>"
+		],
+		"description": "Code snippet for h5 tag"
+	},
+	"Header6 Tag": {
+		"prefix": "h6",
+		"body": [
+			"<h6>${1:Heading 6}</h6>"
+		],
+		"description": "Code snippet for h6 tag"
+	},
+	"Main Tag": {
+		"prefix": "main",
+		"body": [
+			"<main>",
+			"    ${1:<!-- main content -->}",
+			"</main>"
+		],
+		"description": "Code snippet for main tag"
+	},
+	"Address Tag": {
+		"prefix": "address",
+		"body": [
+			"<address>${1:Your address}</address>"
+		],
+		"description": "Code snippet for address tag"
+	},
+	"Time Tag": {
+		"prefix": "time",
+		"body": [
+			"<time datetime=\"${1:2024-10-19}\">${2:October 19, 2024}</time>"
+		],
+		"description": "Code snippet for time tag"
+	},
+	"Paragraph Tag": {
+		"prefix": "p",
+		"body": [
+			"<p>${1:Paragraph text}</p>"
+		],
+		"description": "Code snippet for paragraph tag"
+	},
+	"Bold Tag": {
+		"prefix": "b",
+		"body": [
+			"<b>${1:Bold text}</b>"
+		],
+		"description": "Code snippet for bold tag"
+	},
+	"Italic Tag": {
+		"prefix": "i",
+		"body": [
+			"<i>${1:Italic text}</i>"
+		],
+		"description": "Code snippet for italic tag"
+	},
+	"Span Tag": {
+		"prefix": "span",
+		"body": [
+			"<span>${1:Text}</span>"
+		],
+		"description": "Code snippet for span tag"
+	},
+	"Break Line": {
+		"prefix": "br",
+		"body": [
+			"<br />"
+		],
+		"description": "Code snippet for line break"
+	},
+	"Horizontal Rule": {
+		"prefix": "hr",
+		"body": [
+			"<hr />"
+		],
+		"description": "Code snippet for horizontal rule"
+	},
+	"Textarea Tag": {
+		"prefix": "textarea",
+		"body": [
+			"<textarea name=\"${1:name}\" rows=\"${2:4}\" cols=\"${3:50}\">${4:Default text}</textarea>"
+		],
+		"description": "Code snippet for textarea tag"
+	},
+	"Select Tag": {
+		"prefix": "select",
+		"body": [
+			"<select name=\"${1:name}\">",
+			"    <option value=\"${2:value}\">${3:Option}</option>",
+			"</select>"
+		],
+		"description": "Code snippet for select tag"
+	},
+	"Option Tag": {
+		"prefix": "option",
+		"body": [
+			"<option value=\"${1:value}\">${2:Option text}</option>"
+		],
+		"description": "Code snippet for option tag"
+	},
+	"Iframe Tag": {
+		"prefix": "iframe",
+		"body": [
+			"<iframe src=\"${1:url}\" width=\"${2:600}\" height=\"${3:400}\" frameborder=\"${4:0}\"></iframe>"
+		],
+		"description": "Code snippet for iframe tag"
+	},
+	"Canvas Tag": {
+		"prefix": "canvas",
+		"body": [
+			"<canvas id=\"${1:canvasId}\" width=\"${2:500}\" height=\"${3:300}\"></canvas>"
+		],
+		"description": "Code snippet for canvas tag"
+	},
+	"Audio Tag": {
+		"prefix": "audio",
+		"body": [
+			"<audio controls>",
+			"    <source src=\"${1:path/to/audio.mp3}\" type=\"audio/mpeg\">",
+			"    Your browser does not support the audio element.",
+			"</audio>"
+		],
+		"description": "Code snippet for audio tag"
+	},
+	"Video Tag": {
+		"prefix": "video",
+		"body": [
+			"<video controls>",
+			"    <source src=\"${1:path/to/video.mp4}\" type=\"video/mp4\">",
+			"    Your browser does not support the video element.",
+			"</video>"
+		],
+		"description": "Code snippet for video tag"
+	},
+	"Embed Tag": {
+		"prefix": "embed",
+		"body": [
+			"<embed src=\"${1:path/to/resource}\" width=\"${2:300}\" height=\"${3:200}\" />"
+		],
+		"description": "Code snippet for embed tag"
+	},
+	"Source Tag": {
+		"prefix": "source",
+		"body": [
+			"<source src=\"${1:path/to/media}\" type=\"${2:media/type}\" />"
+		],
+		"description": "Code snippet for source tag"
+	},
+	"Track Tag": {
+		"prefix": "track",
+		"body": [
+			"<track src=\"${1:path/to/subtitles.vtt}\" kind=\"${2:subtitles}\" srclang=\"${3:en}\" label=\"${4:English}\" />"
+		],
+		"description": "Code snippet for track tag"
+	},
+	"Style Tag": {
+		"prefix": "style",
+		"body": [
+			"<style>",
+			"    ${1:/* CSS goes here */}",
+			"</style>"
+		],
+		"description": "Code snippet for style tag"
+	},
+	"Header1 Tag": {
+		"prefix": "h1",
+		"body": [
+			"<h1>${1:Heading 1}</h1>"
+		],
+		"description": "Code snippet for h1 tag"
+	},
+	"Header2 Tag": {
+		"prefix": "h2",
+		"body": [
+			"<h2>${1:Heading 2}</h2>"
+		],
+		"description": "Code snippet for h2 tag"
+	},
+	"Header3 Tag": {
+		"prefix": "h3",
+		"body": [
+			"<h3>${1:Heading 3}</h3>"
+		],
+		"description": "Code snippet for h3 tag"
+	},
+	"Mark Tag": {
+		"prefix": "mark",
+		"body": [
+			"<mark>${1:Highlighted text}</mark>"
+		],
+		"description": "Code snippet for mark tag"
+	},
+	"Ruby Tag": {
+		"prefix": "ruby",
+		"body": [
+			"<ruby>${1:Text}<rt>${2:Explanation}</rt></ruby>"
+		],
+		"description": "Code snippet for ruby tag"
+	},
+	"Progress Tag": {
+		"prefix": "progress",
+		"body": [
+			"<progress value=\"${1:50}\" max=\"${2:100}\"></progress>"
+		],
+		"description": "Code snippet for progress tag"
+	},
+	"Meter Tag": {
+		"prefix": "meter",
+		"body": [
+			"<meter value=\"${1:0.6}\" min=\"${2:0}\" max=\"${3:1}\"></meter>"
+		],
+		"description": "Code snippet for meter tag"
+	}
+}

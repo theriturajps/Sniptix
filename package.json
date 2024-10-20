@@ -1,0 +1,69 @@
+{
+    "name": "sniptix",
+    "publisher": "riturajps",
+    "displayName": "Sniptix: Code Snippets for Web Development",
+    "description": "Boost your web development efficiency with Sniptix by theriturajps. Access ready-to-use code snippets for faster, smoother coding in VSCode. Designed to streamline your workflow and save time",
+    "icon": "assets/extension.png",
+    "galleryBanner": {
+        "color": "#C4A120",
+        "theme": "dark"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/theriturajps/Sniptix/issues"
+    },
+    "homepage": "https://github.com/theriturajps/Sniptix/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/theriturajps/Sniptix/blob/main/README.md"
+    },
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Snippets",
+        "Extension Packs"
+    ],
+    "keywords": [
+        "HTML",
+        "CSS",
+        "JS",
+        "Javascript",
+        "Snippets",
+        "Typescript",
+        "theriturajps",
+        "riturajps",
+        "ready-to-use",
+        "VSCode",
+        "sniptix"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/css.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/javascript.json"
+            }
+        ]
+    }
+}
