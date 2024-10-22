@@ -5,7 +5,7 @@
     "description": "Boost your web development efficiency with Sniptix by theriturajps. Access ready-to-use code snippets for faster, smoother coding in VSCode. Designed to streamline your workflow and save time",
     "icon": "assets/extension.png",
     "galleryBanner": {
-        "color": "#C4A120",
+        "color": "#1f1919",
         "theme": "dark"
     },
     "license": "MIT",
